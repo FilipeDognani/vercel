@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>FILIPE SHOES</h1>
+            <form action="">
+                <input type="search" placeholder="Busque no site">
+                <button type="submit">Pesquisar</button>
+            </form>
+        </div>
+        <div class="botao-menu">
+            <button type="button">Abrir Menu</button>
+        </div>
+        <nav class="container">
+            <ul class="menu">
+                <li>
+                    Sobre a Loja
+                </li>
+                <li>
+                    Produtos
+                    <div class="clear">
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container conteudo">
+        <main>
+            <section class="destaque">
+                <h2>Sobre a loja</h2>
+                <article class="noticia">
+                    <a href="">
+                        <img src="https://www.barrashopping.com.br/sites/testes/files/styles/loja670x455/public/lojas/loja_tres_3.jpeg?itok=VN09GTyh" alt="">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, doloremque hic! Neque saepe est minima exercitationem aliquam rerum dolorem incidunt dignissimos, sequi assumenda molestiae? Praesentium, incidunt voluptas. Ullam, iusto tempore!</h3>
+                    </a>
+                </article>
+            </section>
+            <section >
+                <h2>Protudos</h2> 
+                <div class="noticias">
+                    <article class="noticia">
+                        
+                            <img src="https://imgnike-a.akamaihd.net/1920x1920/024347ID.jpg" alt="">
+                            <h3>Tenis Nike XPTO.</h3>
+                            <button>Adiconar ao carrinho</button>
+                    </article>
+                    <article class="noticia">
+                        
+                            <img src="https://imgnike-a.akamaihd.net/1920x1920/024347ID.jpg" alt="">
+                            <h3>Tenis Nike XPTO.</h3>
+                            <button>Adiconar ao carrinho</button>
+                        
+                    </article>
+                    <article class="noticia">
+                        
+                            <img src="https://imgnike-a.akamaihd.net/1920x1920/024347ID.jpg" alt="">
+                            <h3>Tenis Nike XPTO.</h3>
+                            <button>Adiconar ao carrinho</button>
+                    </article>
+                    <article class="noticia">
+                        
+                        <img src="https://imgnike-a.akamaihd.net/1920x1920/024347ID.jpg" alt="">
+                        <h3>Tenis Nike XPTO.</h3>
+                        <button type="submit">Adiconar ao carrinho</button>
+                </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.botao-menu button').click(function(){
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
+</body>
+
+</html>
